@@ -78937,7 +78937,12 @@ A.ajG.prototype={
 $2(a,b){return b instanceof A.l8},
 $S:184}
 A.ajH.prototype={
-$2(a,b){if(b instanceof A.l8)return A.mW(a,!1,"Something went wrong!")},
+$2(a,b){var s,r,q="Something went wrong!"
+if(b instanceof A.l8){s=b.a
+if(s!=null){s=s.b
+r=J.e(J.af(s.a,"type"),"NO_ACCOUNT")?"Account with this email doesn't exist":q
+if(J.e(J.af(s.a,"type"),"BAD_CREDENTIALS"))r="No account found with the given credentials"}else r=q
+A.mW(a,!1,r)}},
 $S:523}
 A.ajD.prototype={
 $1(a){if(a.length!==0)return A.aOS(a)
