@@ -23764,7 +23764,7 @@ Sd:function Sd(){},
 Se:function Se(){},
 EC:function EC(a){this.a=a},
 EB:function EB(a){this.a=a},
-xU(a){switch(a.a){case 0:return"https://wolfiedeals.azurewebsites.net"
+xU(a){switch(a.a){case 0:return"https://wolfie-deals.azurewebsites.net"
 default:throw A.c(A.ds("Unknown environment"))}},
 a0y(){var s=0,r=A.C(t.H)
 var $async$a0y=A.D(function(a,b){if(a===1)return A.z(b,r)
